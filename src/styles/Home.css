@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: rgb(30, 30, 55);
+  }
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+  }
+  #title{
+    font-size: 24px;
+    color: white;
+  }
+  #form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #form input[type="text"]{
+    background: rgb(55, 55, 55);
+    padding: 15px;
+    font-size: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid gray;
+    width: 400px;
+    color: white;
+    outline: 0;
+  }
+  #button_s{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid gray;
+    background: rgb(25, 25, 25);
+    cursor: pointer;
+  }
+  #button_s  img{
+    padding-left: 10px;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(20, 20, 30);
+   }
+  img{
+    margin-right: 15px;
+  }
